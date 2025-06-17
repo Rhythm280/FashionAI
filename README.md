@@ -5,7 +5,7 @@ FashionAI is an intelligent semantic search engine tailored for the fashion e-co
 ## 🚀 Project Highlights
 
 * 🔍 **Semantic Search**: Understands queries like “casual summer dresses for women” and retrieves the most contextually relevant items.
-* 🧠 **GPT-4 Integration**: Uses OpenAI's GPT-4 for contextual understanding and natural language generation.
+* 🧠 **GPT-4 Integration**: This module uses OpenAI's GPT-4 for contextual understanding and natural language generation.
 * 📦 **Vector Search**: Employs FAISS or Pinecone for efficient embedding-based retrieval of fashion items.
 * 👥 **Personalized Recommendations**: Suggests complementary items based on user intent and preferences.
 * ⚡ **Fast & Scalable**: Optimized with microservices, caching, and scalable vector search for handling high traffic.
@@ -53,10 +53,10 @@ FashionAI is an intelligent semantic search engine tailored for the fashion e-co
 ## 🧪 How It Works
 
 1. **User Query** → A fashion-related phrase is entered via UI.
-2. **Query Embedding** → Converted into semantic vector via sentence-transformer.
+2. **Query Embedding** → Converted into a semantic vector via sentence-transformer.
 3. **Vector Store** → Top-k similar items fetched from FAISS/Pinecone.
 4. **GPT-4** → Enhances and contextualizes results.
-5. **Results Displayed** → Intelligent, stylish recommendations shown to the user.
+5. **Results Displayed** → Intelligent, stylish recommendations are shown to the user.
 
 ---
 
